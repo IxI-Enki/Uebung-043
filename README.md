@@ -40,7 +40,7 @@
 <!-- ---------------------------------------------|-------------------------------------------- -->
 
 
-# *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-<<AUSFÜHRBAREDAT>>.cs) <sup></sub>:
+# *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-043/blob/main/DigitFilter/DigitFilter/DigitFilter.cs) <sup></sub>:
 
 
 
