@@ -15,62 +15,29 @@
 <sup><sub> </sub></sup>
 ---
 
-## ✅ Vertiefung:  
-  > ↳ `◌ Punkte einfügen`  
-  > ↳ ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **²** ]()
-
----
-
 <!-- ---------------------------------------------|-------------------------------------------- -->
 ## 🧮 **Aufgabenstellung:**  
-  >  *Beschreibung der Aufgabe* einfügen  
-  >  *Programablauf* und weitere ***Anforderungen***  
-  >  ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **³** ]()
+  - Schreiben Sie ein Programm, welches vom Benutzer einen beliebigen Text einliest und alle Ziffern  
+     extrahiert und diese anschließend in einer Ausgabe-Zeichenfolge sammelt.
 
+  - Die Benutzereingaben dürfen im gesamten Programm nicht verändert werden und müssen erhalten bleiben.  
+  - Zur Lösung dieser Aufgabe dürfen Sie nicht die Standard-Methoden von String verwenden!
+    
 ---
  
 <!-- ---------------------------------------------|-------------------------------------------- -->
 ## 🔎 **Ausgabe** <sub>*Bsp.*</sub> 
 
-
-   |            ❗ *`direkt in die README einfügen`*   |  
-   | :-----------------------------------------------------------------------------------------------------------------: |
-   |  ![**Ausgabebeispiel 📎**](https://github.com/IxI-Enki/Uebung-037/assets/138018029/0e779913-4daa-4784-9edb-46df66a91bad)  |
-> <sub> [..*weiterführende Quelle*..] </sub> [ **⁴** ]()
+- Benutzerschnittstelle:
+  
+   |            *Beispiel:*     | | 
+   | :------------------------------------------: | :------------------------------------------------------------------ |
+   |  Eingabetext: | Hallo Max, meine Telfonnummer ist 067854378923 innerhalb von Österreich! | 
+   |  Ausgabetext: | 067854378923   |
 
 ---
-<!-- ---------------------------------------------|-------------------------------------------- -->
-## 🧩 **Hinweis** / <sub>Ablauf</sub> 🧠<sup>💭</sup>  
 
-
- 
- ### *Ablauf:*               
-            
- ⒈)  `Punkt einfügen`   
- ⒉) ` ⋯ `               
- ⒊) ` ⋯ `               
-  
- #### 
-   - ***zum Beispiel:***
-     >  <sub>*Die Dezimalzahl*</sub> **6**  <sub>**entspricht der Binärzahl**</sub> **110**  
-     > ↳ <sub>*das sind*</sub> **3 Binärstellen**  <sub>weil  **6** ***insgesamt 3 Mal durch 2 teilbar*** *ist.*  
-
-                                               
-      ```c#                                
-         -   6 : 2 = 3,    //  Rest = 0   
-         -   3 : 2 = 1,    //  Rest = 1    
-         -   1 : 2 = 0,    //  Rest = 1     
-      ```                                 
- 
- > <sub> [..*weiterführende Quelle*..] </sub> [ **⁵** ]()
- ---
-
-
-<!-- ---------------------------------------------|-------------------------------------------- -->
+<!-- ---------------------------------------------|-------------------------------------------- --
 
 
 # *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-<<AUSFÜHRBAREDAT>>.cs) <sup></sub>:
