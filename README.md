@@ -3,18 +3,15 @@
 # Uebung-043  --  [***Digit Filter***](https://github.com/IxI-Enki/Uebung-043/blob/main)  
 
 <!-- ---------------------------------------------|-------------------------------------------- -->
-###### 📎[**Angabe**](https://github.com/IxI-Enki/Uebung-<<<Verzeichniss>>>.pdf) *.pdf*
+###### 📎[**Angabe**](https://github.com/IxI-Enki/Uebung-043/blob/main/work-directory/3%20DigitFilter.pdf) *.pdf*
 <sup><sub> 
 ---
 </sub></sup>
 
 <!-- ---------------------------------------------|-------------------------------------------- -->
 ## 📊 Lernziele:  
-  > ↳ `◌ Punkte einfügen`  
-  > ↳ ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **¹** ]()
-
+  - ↳ Stringbearbeitung    
+  
 <sup><sub> </sub></sup>
 ---
 
