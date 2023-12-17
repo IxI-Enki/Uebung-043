@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/DigitFilter/.vs/DigitFilter
+/DigitFilter/DigitFilter/obj
+/DigitFilter/DigitFilter.sln
+/DigitFilter/DigitFilter/DigitFilter.csproj
