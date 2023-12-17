@@ -3,17 +3,18 @@
  *-----------------------------------------------------------------------------
  *                      Jan Ritt                                               
  *-----------------------------------------------------------------------------
- *  Description:  
+ *  Description:  Filter all numbers from a Userinput
  *-----------------------------------------------------------------------------
 */
 
 /*_________________________________libraries_________________________________*/
 using System;                   //  
+using System.Reflection.Metadata;
 using System.Text;              //  Unicode Symbols
 using System.Threading;         //  Thread.Sleep(1000) = 1 sec
 
 /*---------------------------------- START ----------------------------------*/
-namespace DigitFilter        //  
+namespace DigitFilter       //  
 {                           //
   public class Program      //
   {                         //
@@ -25,39 +26,37 @@ namespace DigitFilter        //
       Console.SetWindowSize(cWidth, cHeight);    //
       Console.OutputEncoding = Encoding.UTF8;    //  Unicode Symbols
 
+      const int ASCIIZERO = 48;
       /*----------------------------- VARIABLES -----------------------------*/
-      string userInput,          //  
-             formattedOutput;    //  format decimal places of Output
-      char userChoice;           //
-      int input,                 //  
-          output;                //  ✏
-
+      string userInput;
+      int cacheOut = 0; 
       /*-------------------------------- HEAD -------------------------------*/
       Console.Clear();
-      Console.Write("\n                   /* 📝edit */                     " +
-      /* cWidth: */ "\n==========================-==========================");
+      Console.Write("\n                    Zahlen Filter                    " +
+      /* cWidth: */ "\n=====================================================");
 
       /*---[in:]-------------------- PROMPT_USER ----------------------------*/
-      Console.Write("\n .. " +    //  ✏
-                    "\n .. ");    //  
-
+      Console.Write("\n Geben Sie einen Text ein, " +
+                    "\n aus dem die Zahlen gefiltert werden sollen.  " +
+                    "\n ");
       /*----------------------------- GET_INPUT -----------------------------*/
-      userInput = Console.ReadLine();              //  get input + [enter]
-                                                   //  
-      int.TryParse(userInput, out input);          //  is int
-      char.TryParse(userInput, out userChoice);    //  is char
+      userInput = Console.ReadLine();
+      int[] cacheDigits = new int[userInput.Length];
+      char[] inputDigits = new char[userInput.Length];
 
+      for (int i = 0; i < userInput.Length; i++)
+      {
+        inputDigits[i] = userInput[i];
 
-
-      /*---[calc:]-------------------📝 NEW_CODE ----------------------------*/
-
-      formattedOutput = output.ToString("0.00");    // .. 2 decimals
-
-
-
-      /*---[out:]--------------------- SOLUTION -----------------------------*/
-      Console.Write("\n ..Output.. ");    //  ✏ tell solution
-
+        if (inputDigits[i] >= '0' && inputDigits[i] <= '9')
+        {
+          // ASCII "48" = Dezimal "0"
+          cacheOut = (cacheOut * 10) + (inputDigits[i] - ASCIIZERO);
+        }
+      }
+      Console.Write("\n-----------------------------------------------------" +
+                   $"\n Alle Ziffern: {cacheOut}" +
+                    "\n=====================================================");
       /*-------------------------------- END --------------------------------*/
       Console.Write("\n Zum beenden Eingabetaste drücken..");
       Console.ReadLine();    //  wait for [enter]
